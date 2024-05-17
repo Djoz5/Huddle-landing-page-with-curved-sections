@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+  overflow-x: hidden;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 40px;
+    margin-bottom: 80px;
+}
+section, footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+section{
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.colored-section{
+    background: hsl(207, 100%, 98%);
+}
+.last-section{
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+footer{
+    background: hsl(192, 100%, 9%);
+    color:white;
+    align-items: start;
+    padding-top: 60px;
+    padding-bottom: 160px;
+}
+.footer-input-btn, .social{
+    display: flex;
+    align-items: center;
+}
+.contact-div{
+    display: flex;
+    align-items: start;
+}
+.section1-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    width:950px;
+    justify-content:space-between;
+    padding-left: 100px;
+}
+.sub-div-1, .sub-div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.sub-div-1{
+    margin-right: 130px;
+}
+h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 55px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 15px
+}
+h1, h2, h3{
+    color:hsl(192, 100%, 9%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h4{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+p{
+    font-size: 17px;
+    width:500px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:hsl(192, 100%, 9%);
+}
+h4{
+    color:white;
+    margin-bottom: 20px;
+}
+.section1-paragraph{
+    opacity: 0.7;
+}
+.footer-paragraph{
+    width:390px;
+    color:white;
+    margin-bottom: 20px;
+}
+.screen-mockups{
+    width:950px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.logo{
+    width:150px;
+}
+.footer-logo{
+    filter:brightness(0) invert(1);
+    width:150px;
+    margin-bottom: 20px;
+}
+.icon-communities, .icon-messages{
+    width:30px;
+}
+.icon-email, .icon-phone{
+    height:15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.illustration-grow-together, .illustration-your-users, .illustration-flowing-conversation{
+    width:400px;
+}
+input{
+    border: none;
+    width:250px;
+    height:40px;
+    border-radius: 5px;
+    margin-right: 30px;
+    outline: none;
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+}
+.subscribe-btn{
+    height:40px;
+    width:150px;
+    background: hsl(322, 100%, 66%);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    font-weight: 600;
+}
+.try-btn{
+    width:100px;
+    background: none;
+    border:1px solid hsl(322, 100%, 66%);
+    color:hsl(322, 100%, 66%);
+    height:35px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px hsl(321, 80%, 85%);
+}
+.getStarted-btn{
+    border:none;
+    background: hsl(322, 100%, 66%);
+    color:white;
+    width:250px;
+    height:50px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+.getStarted-btn:hover, .subscribe-btn:hover{
+    background: hsl(321, 100%, 78%);
+}
+.try-btn:hover{
+    color:hsl(321, 100%, 78%);
+    border:1px solid hsl(321, 100%, 78%);
+}
+.fb,.twitter{
+    width:30px;
+    height:30px;
+    background: white;
+    border:none;
+    border-radius: 2px;
+    font-size: 18px;
+    color:hsl(192, 100%, 9%);
+}
+.ig{
+    background: none;
+    border:none;
+    color:white;
+    font-size: 33px;
+    margin-left:15px;
+    margin-right: 15px;
+    padding-top: 2px;
+}
+.ig:hover{
+    color:hsl(210, 65%, 58%);
+}
+.fb:hover, .twitter:hover{
+    background:hsl(210, 65%, 58%);
+}
+.bg-section-top-desktop-1, .bg-section-top-desktop-2, .bg-footer-top-desktop{
+    display: flex;
+ }
+
+.bg-footer-top-mobile, .bg-section-bottom-mobile-2, .bg-section-top-mobile-2, .bg-section-bottom-mobile-1, .bg-section-top-mobile-1{
+    display: none;
+}
+@media(max-width:500px){
+    .section1-container,.section1, section{
+        flex-direction: column;
+        text-align: center;
+        max-width:500px;
+    }
+    .colored-section{
+        flex-direction: column-reverse;
+    }
+    .nav-bar{
+        margin-bottom: 40px;
+    }
+    .sub-div-1, .sub-div-2{
+        margin:0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .section1-container{
+        margin:0;
+        padding-left: 180px;
+    }
+    .screen-mockups{
+        width:380px;
+    }
+    .social{
+        margin-top: 20px;
+    }
+    .illustration-flowing-conversation, .illustration-grow-together, .illustration-your-users{
+        margin-bottom: 60px;
+    }
+    .logo{
+        width:120px
+    }
+    .footer-logo{
+        width:200px;
+    }
+    footer{
+        flex-direction: column-reverse;
+        max-width:500px;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .footer-div1{
+        margin-left: 20px;
+    }
+    .footer-div2{
+        margin-bottom: 90px;
+    }
+    .footer-paragraph{
+        width:320px;
+    }
+    .footer-input-btn{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    input{
+        margin-right: 0;
+        margin-bottom: 15px;
+        width:320px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    p{
+        font-size: 15px;
+        width:330px
+    }
+    h3{
+        font-size: 25px;
+    }
+    .last-section-text{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .bg-footer-top-mobile, .bg-section-bottom-mobile-2, .bg-section-top-mobile-2, .bg-section-bottom-mobile-1, .bg-section-top-mobile-1{
+        display: flex;
+       min-width: 100%;
+    }
+    .bg-footer-top-desktop, .bg-section-bottom-desktop-2, .bg-section-top-desktop-2, .bg-section-bottom-desktop-1, .bg-section-top-desktop-1{
+        display: none;
+    }
+}
